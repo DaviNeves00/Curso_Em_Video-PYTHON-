@@ -9,7 +9,7 @@ ou então o empréstimo será negado.
 
 nome = str(input('Olá, seja bem vindo(a). com quem estou falando?: ')).title().strip()
 nome = nome.split()
-casa = float(input('Muito prazer {}! Qual é o valor da imovel que você deseja adquerir? R$'.format(nome[0])))
+casa = float(input('Muito prazer {}! Qual é o valor da imóvel que você deseja adquirir? R$'.format(nome[0])))
 salario = float(input('Qual é o seu salário mensal?: R$'))
 anos = int(input('Em quantos anos pretende pagar o imovel?: '))
 anos = anos * 12 

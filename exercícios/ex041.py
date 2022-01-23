@@ -21,5 +21,7 @@ elif data <= 14:
     print('Muito bem {}, a sua categoria é \033[33mINFANTIL\033[m.'.format(nome[0]))
 elif data <= 19:
     print('Muito bem {}, a sua categoria é \033[36mJÚNIOR\033[m.'.format(nome[0]))
+elif data == 20:
+    print('Muito bem {}, a sua categoria é \033[36mSÊNIOR\033[m.'.format(nome[0]))
 else:
     print('Muito bem {}, a sua categoria é \033[31mMASTER\033[m.'.format(nome[0]))
